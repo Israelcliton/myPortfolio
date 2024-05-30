@@ -1,0 +1,275 @@
+* {
+    color: aliceblue;
+    font-weight: bolder;
+}
+body {
+    margin: 0;
+    background: #222;
+    /* font-family: "Patrick Hand", cursive, sans-serif; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    font-style: normal;
+}
+.container {
+    width: auto;
+}
+header {
+    width: auto;
+    border-radius: 8px;
+    background: #000000;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.logo h1 {
+    float: left;
+    padding: 10px 10px, 10px, 10px;
+    margin-left: 30px;
+    font-family: "New Rocker", system-ui;
+    font-weight: bolder;
+    font-style: normal;
+    color: rgb(255, 6, 6);
+    font-size: 30px;
+}
+nav {
+    float: right;
+    position: static;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav li {
+    display: inline-block;
+    margin-right: 35px;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 17px;
+    overflow: auto;
+    box-sizing: border-box;
+}
+nav a {
+    color: #ff0000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+nav a:hover {
+    color: #ffffff;
+    background-image:  linear-gradient(to bottom, rgb(143, 0, 0), rgb(103, 0, 0),rgb(202, 13, 13));
+    -webkit-text-fill-color: auto;
+    -webkit-text-clip: button;
+    padding: 8px 14px;
+    border-radius: 10px;
+    margin-bottom: 40%;
+    outline: none;
+    border: 1px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+input {
+    background-color: black;
+    color: aliceblue;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-bottom: 1%;
+    width: 250px;
+    height: 50px;
+}
+#yourmessage {
+    background-color: black;
+    color: aliceblue;
+    width: 575px;
+    margin-top: 2%;
+    margin-left: 4%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+}
+.container {
+    /* background-color: inherit; */
+    width: auto;
+    overflow: auto;
+    color: aliceblue;
+    border-radius: 10px;
+    /* justify-content: center;
+    align-items: center; */
+}
+.form-wrapper {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 2%;
+    margin-bottom: 7%;
+    width: auto;
+    overflow: auto;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 8px;
+}
+.about {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+button.get {
+    background-image:  linear-gradient(to bottom, rgb(143, 0, 0), rgb(103, 0, 0),rgb(202, 13, 13));
+    -webkit-text-fill-color: auto;
+    -webkit-text-clip: button;
+    padding: 8px 14px;
+    border-radius: 15px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    outline: none;
+    border: 1px;
+    transition: all 1.5s;
+    animation: 2s linear bounce;
+    cursor: pointer;
+}
+button.get:hover {
+    background-image:  linear-gradient(to bottom, rgb(228, 157, 24), rgb(200, 127, 8),rgb(202, 111, 13));
+    -webkit-text-fill-color: auto;
+    -webkit-text-clip: button;
+    color: #000000;
+}
+#submit {
+    background-image:  linear-gradient(to bottom, rgb(143, 0, 0), rgb(103, 0, 0),rgb(202, 13, 13));
+    -webkit-text-fill-color: auto;
+    -webkit-text-clip: button;
+    padding: 8px 14px;
+    border-radius: 15px;
+    margin-bottom: 8%;
+    margin-top: 20px;
+    margin-left: 28px;
+    outline: none;
+    border: 1px;
+    transition: all 2s;
+    cursor: pointer;  
+}
+#submit:active :visited {
+    background-image:  linear-gradient(to bottom, rgb(228, 157, 24), rgb(200, 127, 8),rgb(202, 111, 13));
+    -webkit-text-fill-color: auto;
+    -webkit-text-clip: button;
+    color: #000000;
+}
+#submit:hover {
+    background-image:  linear-gradient(to bottom, rgb(228, 157, 24), rgb(200, 127, 8),rgb(202, 111, 13));
+    -webkit-text-fill-color: auto;
+    -webkit-text-clip: button;
+    color: #000000;
+}
+@keyframes bounce {
+    0%, 25%, 50%, 75%, 90%, 100%{
+        transform: translateY(0);
+    }
+    15%, 40% {
+        transform: translateY(-20px);
+    }
+    65%, 80% {transform: translateY(-15px);}
+    95% {
+        transform: translateY(-5px);
+    }
+}
+img {
+    float: left;
+    margin-left: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 388px;
+    height: 395px;
+    border-radius: 400px;
+    outline: 2px solid aliceblue;
+    justify-self: center;
+    
+}
+.img2 {
+    margin-top: 27px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    float: left;
+    width: 388px;
+    height: 395px;
+    border-radius: 400px;
+    outline: 2px solid aliceblue;
+    justify-self: center;
+    z-index: 5;
+    position: relative;
+}
+.first {
+    /* margin-right: 20px; */
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 50%;
+    display: inline;
+    float: left;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.firstchild {
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 45%;
+    display: inline;
+    float: 50%;
+    justify-content: center;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 760px) {
+    .container {
+        width: 100%;
+    }
+
+    .first,
+    .form-wrapper {
+        width: 90%;
+        padding: 0;
+    }
+
+    .first h1 {
+        font-size: 2em;
+    }
+    .first {
+        width: 93%;
+        margin-right: 10px;
+        margin-left: -1px;
+    }
+    .firstchild {
+        width: 95%;
+    }
+    #yourmessage {
+        width: 74.6%;
+    }
+    img {
+        width: 97%;
+        height: 350px;
+        margin-right: 5px;
+        margin-left: 6px;
+    }
+    .img2 {
+        width: 97%;
+        height: 350px;
+        margin-right: 5px;
+        margin-left: 6px;
+    }
+    #submit {
+        margin-left: 15px;
+    }
+    nav {
+        display: grid;
+        float: left;
+        position: relative;
+    }
+}
